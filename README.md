@@ -1,4 +1,4 @@
-# SoloFlip
+# SoleFlip
 
 This repository provides the code for the paper "Backdoor Attacks on Neural Networks via One-Bit Flip", including training benign models, backdoor injection simulation, and performance testing.
 
