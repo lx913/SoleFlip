@@ -36,8 +36,6 @@ Or use `train_clean_model.py` directly:
 python train_clean_model.py -dataset CIFAR10 -backbone resnet -device 0 -batch_size 512 -epochs 200 -lr 0.1 -weight_decay 1e-3 -model_num 1 -optimizer SGD
 ```
 
-A trained ResNet on CIFAR-10 is also provided. Place it under `saved_model/resnet_CIFAR10/`.
-
 ## Backdoor Injection
 
 Example: Find exploitable weights and generate triggers for backdoor injection on CIFAR10/ResNet with a mini batch of the dataset
